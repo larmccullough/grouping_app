@@ -1,0 +1,10 @@
+@import "../../global.scss";
+
+.form {
+  flex: 2;
+  border: solid 2px $secondary;
+  padding: 5px;
+  margin: 10px;
+  height: 650px;
+  border-radius: 10px;
+}

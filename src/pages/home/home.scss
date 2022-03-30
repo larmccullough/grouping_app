@@ -1,4 +1,6 @@
-.homeContainer {
-  background-color: #fff;
-  height: 100vh;
+.home {
+  .homeContainer {
+    display: flex;
+    flex: 1;
+  }
 }

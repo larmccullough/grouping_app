@@ -4,9 +4,11 @@ import "./home.scss";
 
 const Home = () => {
   return (
-    <div className=".homeContainer">
+    <div className="home">
       <Topbar />
-      <Menu />
+      <div className=".homeContainer">
+        <Menu />
+      </div>
     </div>
   );
 };

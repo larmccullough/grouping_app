@@ -1,0 +1,19 @@
+@import "../../global.scss";
+
+.create {
+  .createContainer {
+    display: flex;
+    flex: 6;
+    justify-content: center;
+    .widgets {
+      display: flex;
+      justify-content: center;
+      border: 2px solid $primary;
+      width: 1200px;
+      height: 700px;
+      border-radius: 10px;
+      align-items: center;
+      margin: 80px 30px;
+    }
+  }
+}

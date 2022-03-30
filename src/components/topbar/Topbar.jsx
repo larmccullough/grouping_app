@@ -18,7 +18,7 @@ const Topbar = () => {
               <span>Home</span>
             </div>
           </Link>
-          <Link to="/create" style={{ textDecoration: "none" }}>
+          <Link to="/join" style={{ textDecoration: "none" }}>
             <div className="item2">
               <PersonAddAltRounded className="icon" />
               <span>Join</span>
