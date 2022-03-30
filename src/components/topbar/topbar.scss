@@ -1,0 +1,54 @@
+.topbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  top: 0;
+
+  .topbarContainer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item1,
+      .item2,
+      .item3 {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        border: solid 1px;
+        border-radius: 510px;
+        padding: 5px 15px;
+        .icon {
+          padding-right: 5px;
+        }
+      }
+      .item1 {
+        color: #fff;
+        background-color: #02590f;
+      }
+      .item2 {
+        color: #fff;
+        background-color: #485dd9;
+      }
+      .item3 {
+        color: #000;
+      }
+    }
+  }
+
+  .darkMode {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+}

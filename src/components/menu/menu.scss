@@ -1,0 +1,39 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin-top: 100px;
+  height: 100vh;
+  .items {
+    color: #485dd9;
+    align-items: center;
+
+    a:visited {
+      color: #485dd9;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      border: solid 2px #485dd9;
+      height: 50px;
+      width: 300px;
+      border-radius: 10px;
+      font-size: 28px;
+      font-weight: 300;
+      .right {
+        margin-left: 30px;
+      }
+
+      .icon {
+        margin-left: 30px;
+      }
+
+      &:hover {
+        background-color: hsla(231, 66%, 57%, 0.157);
+      }
+    }
+  }
+}
