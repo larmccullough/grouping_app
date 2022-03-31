@@ -1,5 +1,7 @@
+@import "./global.scss";
+
 .app {
   height: 100vh;
   overflow: hidden;
-  background-color: #fff;
+  background-color: $background-primary;
 }

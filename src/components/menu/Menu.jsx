@@ -12,6 +12,7 @@ const Menu = () => {
   return (
     <div className="menu">
       <div className="items">
+        <h1>Grouping App</h1>
         <Link to="/create" style={{ textDecoration: "none" }}>
           <div className="item">
             <AddCircleOutlineRounded className="icon" />

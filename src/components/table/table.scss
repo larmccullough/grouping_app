@@ -2,9 +2,12 @@
 
 .table {
   flex: 4;
-  border: solid 2px $secondary;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 5px 1px rgba(201, 201, 201, 0.46);
+  //border: solid 2px $secondary;
   padding: 5px;
   margin: 10px;
   height: 650px;
   border-radius: 10px;
+  background-color: #fff;
 }

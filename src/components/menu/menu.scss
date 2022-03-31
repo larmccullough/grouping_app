@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -5,18 +7,25 @@
   margin-top: 80px;
 
   .items {
-    color: #485dd9;
+    color: $primary;
     align-items: center;
+    padding: 50px 80px;
+    background-color: $background-secondary;
+    border-radius: 10px;
+    h1 {
+      text-align: center;
+      color: $secondary;
+    }
 
     a:visited {
-      color: #485dd9;
+      color: $primary;
     }
 
     .item {
       display: flex;
       align-items: center;
       margin-top: 20px;
-      border: solid 2px #485dd9;
+      border: solid 2px $primary;
       height: 50px;
       width: 300px;
       border-radius: 10px;
