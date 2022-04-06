@@ -16,7 +16,7 @@ const Menu = () => {
         <Link to="/create" style={{ textDecoration: "none" }}>
           <div className="item">
             <AddCircleOutlineRounded className="icon" />
-            <span className="right">Create Group</span>
+            <span className="right">Create Class</span>
           </div>
         </Link>
         <Link to="/join" style={{ textDecoration: "none" }}>
